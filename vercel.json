@@ -1,0 +1,10 @@
+{
+  "env": {
+    "NEXT_TELEMETRY_DISABLED": "1"
+  },
+  "functions": {
+    "app/api/csv-data/route.ts": {
+      "maxDuration": 300
+    }
+  }
+}
