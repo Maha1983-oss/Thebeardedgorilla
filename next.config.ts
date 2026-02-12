@@ -6,10 +6,6 @@ const nextConfig: NextConfig = {
 
   // Experimental features for better performance
   experimental: {
-    // Increase API body size limit for large CSV uploads (50MB)
-    serverActions: {
-      bodySizeLimit: "50mb",
-    },
     optimizePackageImports: [
       "lucide-react",
       "@radix-ui/react-icons",
